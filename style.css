@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.board{
+    display: grid;
+    padding: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    background-color: lightcoral;
+    justify-content: center;
+    align-content: center;
+    
+
+}
+
+.box{
+    background-color: #fff;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 175%;
+}
